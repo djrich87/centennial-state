@@ -18,3 +18,8 @@ def create_post():
     print('Ski Slope Post was Created')
     return redirect(url_for('core.index'))
   return render_template('create_post.html', form=form)
+
+@ski_slope_posts.route('/<int:ski_slope_post_id>')
+def ski_slope_post(ski_slope_post_id):
+  ski_slope_post = SkiSlopePost.query.get_or_404(ski_slope_post_id)
+  return render_template('ski_slope_post.html', title=ski_slope_post.title, date=ski_slope_post.date, post=ski_slope_post)
