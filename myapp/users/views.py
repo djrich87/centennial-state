@@ -74,5 +74,5 @@ def account():
 def user_posts(username):
     page = request.args.get('page', 1, type=int)
     user = User.query.filter_by(username=username).first_or_404()
-    ski_slope_posts = SkiSlopPost.query.filter_by(author=user).order_by(SkiSlopPost.date.desc()).paginate(page=page, per_page=5) 
+    ski_slope_posts = SkiSlopePost.query.filter_by(author=user).order_by(SkiSlopePost.date.desc()).paginate(page=page, per_page=5) 
     return render_template('user_ski_slope_posts.html', ski_slope_posts=ski_slope_posts, user=user)
