@@ -15,12 +15,12 @@
             <a href="{{url_for('core.index')}}">Home</a>
         </li>
         <li class="nav-link">
-            <a href="{{url_for('core.info')}}">About</a>
+            <a href="{{url_for('core.info')}}">About Us</a>
         </li>
 
         {% if current_user.is_authenticated %}
         <li class="nav-link">
-            <a href="{{url_for('ski_slope_posts.create_post')}}">Create a Colorado Ski Slope Review</a> 
+            <a href="{{url_for('ski_slope_posts.create_post')}}">Create a Ski Slope Review</a> 
         </li>
         <li class="nav-link">
             <a href="{{url_for('users.logout')}}">Log Out</a>

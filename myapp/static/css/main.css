@@ -1,12 +1,28 @@
-.nav-link{
-  list-style: none;
+body {
+  background: url("../images/colorado.jpg");
+  background-repeat: no-repeat;
+  background-image: center;
+  background-size: cover;
+}
+
+ul.nav {
+  background-color: rgb(156, 51, 51);
   text-align: center;
+  color: white;
+}
+
+.nav-link{
+  list-style-type: none;
   margin: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-flex;
+  text-align: center;
+  color: navy;
 }
 
 h1{
   text-align: center;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: navy;
+  color: white;
+  background-color: navy;
 }
