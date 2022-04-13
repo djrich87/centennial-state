@@ -44,7 +44,7 @@ When the development team came together for the first time we brainstormed about
 
 #### Trello Planning, Wireframing & ERD:
 
-[Trello Planning](https://trello.com/b/LNa8QWuu/great-lake-gaming)
+[Trello Planning](https://trello.com/b/QYNA3SmY/centennial-state-unit-4-project-planning)
 
 [Wireframing](https://whimsical.com/great-lake-gaming-wireframe-WkSLCdR2cWLcebdsFLe6X)
 
