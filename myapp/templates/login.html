@@ -2,6 +2,7 @@
 {% block content %}
    
 <form method="POST" class="login">
+    <h3 class="logintext">Log In</h3>
     {{form.hidden_tag()}}
     {{form.email.label}}{{form.email}}<br>
     {{form.password.label}}{{form.password}}<br>

@@ -84,13 +84,69 @@ h1{
   border: 5px solid rgb(255, 255, 255);
 }
 
-form.login {
-  text-align: center;
-  padding: 5%;
+.login {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(0, 40, 104);
   color: white;
-  margin: 2%;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.25rem;
+  width: 300px;
+  height: 200px;
+  border: 10px;
+  border: 5px solid rgb(255, 255, 255);
+  margin: auto;
 }
 
+h3.logintext {
+  text-align: center;
+}
+
+.register {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(0, 40, 104);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.25rem;
+  width: 450px;
+  height: 350px;
+  border: 10px;
+  border: 5px solid rgb(255, 255, 255);
+  margin: auto;
+}
+
+h3.registertext {
+  text-align: center;
+}
+
+.containercreate {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(0, 40, 104);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.25rem;
+  width: 600px;
+  height: 500px;
+  border: 10px;
+  border: 5px solid rgb(255, 255, 255);
+  margin: auto;
+}
+
+h3.createreview {
+  text-align: center;
+}
+
+input#title.form-control.form-control-lg {
+  width: 500px;
+  height: 20px;
+}
+
+textarea#text.form-control.form-control-lg {
+  height: 350px;
+  width: 550px;
+}

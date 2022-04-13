@@ -6,7 +6,9 @@
 
 ## Background
 
-When the development team came together for the first time we brainstormed about our commonalities and where we grew up. These common interests and backgrounds were used as ideas and themes for our Unit Three project. After about ten minutes we realized that every member liked video games and that we all grew up in the Great Lakes region of the Midwest. Our points of origin combined with  our passion for video games was the beginning of the Great Lakes Gamers! The Great Lakes Gamers would go onto create the greatest retro third party API website ever created, Great Lakes Games! We hope you see the passion and hard work we put into this project. Please enjoy our website!
+Welcome to Centennial State! A database where skiers and snowboarders can login and write reviews for their favorite ski slopes throughout the great state of Colorado. The state is famous for skiing and outdoor activities. Colorado is home to more 14,000 foot plus mountains than any area in North America. This application is for the winter sports enthusiasts to review, reflect and share their experiences and opinions on Colorado's world class skiing in the great Rocky Mountains.
+
+The Centennial State is the official nickname of Colorado. Colorado was nick named the Centennial State because it was officially declared a part of the United States in 1876, one hundred years after declaring it independence. In honor of Colorado, this application and its name is a nod to the great state that many people around the country and world know and love for its skiing and mountains. Please enjoy our application!
 
 ***
 
