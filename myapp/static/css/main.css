@@ -11,6 +11,8 @@ ul.nav {
   text-align: center;
   color: white;
   font-size: bold;
+  border: 10px;
+  border: 5px solid rgb(255, 255, 255);
 }
 
 
@@ -39,6 +41,12 @@ ul.nav {
   text-decoration: none;
 }
 
+div.header {
+  border: 10px;
+  border: 5px solid rgb(255, 255, 255);
+  line-height: 1;
+}
+
 h1{
   text-align: center;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -51,6 +59,8 @@ h1{
   height: 80px;
   width: 80px;
   list-style: none;
+  border: 10px;
+  border: 5px solid rgb(255, 215, 0);
 }
 
 .header {
