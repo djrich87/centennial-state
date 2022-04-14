@@ -239,3 +239,15 @@ a.page-link {
   margin: 20px auto;
   text-decoration: none;
 }
+
+ul.pagination.justify-content-center {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.createdpost {
+  display: flex;
+  margin: auto;
+}
