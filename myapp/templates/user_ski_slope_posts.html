@@ -1,12 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
     <div class="container">
-        <div class="jumbotron">
+        <div class="postheader">
             <div align="center">
-                <h1>Welcome to the page for {{user.username}}</h1>
+                <h1>Welcome to the reviews created by {{user.username}}</h1>
             </div>
         </div>
-     {% for post in ski_slope_posts.items %}
+    {% for post in ski_slope_posts.items %}
+    <div class="createdpost">
     <h2>
         <a href="{{url_for('ski_slope_posts.ski_slope_post', ski_slope_post_id=post.id)}}">{{post.title}}</a>
     </h2>
@@ -37,6 +38,7 @@
             {% endfor %}
         </ul>
     </nav>
+</div>
 
 
 {% endblock %}
