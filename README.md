@@ -57,3 +57,4 @@ The Centennial State is the official nickname of Colorado. Colorado was nick nam
 ## Icebox Items
 
 #### 1. Add a ski slope difficulty rating (ex: green, blue, blue black, black, double black diamond)
+#### 2. Upload images of the reviewed slope

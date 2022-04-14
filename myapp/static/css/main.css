@@ -4,6 +4,7 @@ body {
   background-image: center;
   background-size: cover;
   background-color: rgb(0, 40, 104);
+  background-attachment: fixed;
 }
 
 ul.nav {
@@ -96,7 +97,7 @@ h1{
   height: 200px;
   border: 10px;
   border: 5px solid rgb(255, 255, 255);
-  margin: auto;
+  margin: 200px auto;
 }
 
 h3.logintext {
@@ -115,7 +116,7 @@ h3.logintext {
   height: 350px;
   border: 10px;
   border: 5px solid rgb(255, 255, 255);
-  margin: auto;
+  margin: 150px auto;
 }
 
 h3.registertext {
@@ -163,7 +164,7 @@ textarea#text.form-control.form-control-lg {
   height: 100px;
   border: 10px;
   border: 5px solid rgb(255, 255, 255);
-  margin: auto;
+  margin: 150px auto;
 }
 
 div.form-group {
@@ -182,7 +183,7 @@ div.car-boy {
   height: 150px;
   border: 10px;
   border: 5px solid rgb(255, 255, 255);
-  margin: auto;
+  margin: 20px auto;
   text-decoration: none;
 }
 
@@ -196,6 +197,18 @@ a {
   color: white;
 }
 
+a.page-link {
+  padding: 3px;
+  font-size: x-large;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  justify-content: center;
+  display: inline-flex;
+  border-radius: 30%;
+  list-style: none;
+}
+
 .createdpost {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(0, 40, 104);
@@ -203,10 +216,26 @@ a {
   display: flex;
   flex-direction: column;
   padding: 1.25rem;
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   border: 10px;
   border: 5px solid rgb(255, 255, 255);
-  margin: auto;
+  margin: 20px auto;
+  text-decoration: none;
+}
+
+.review {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(0, 40, 104);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.25rem;
+  width: 600px;
+  height: 400px;
+  border: 10px;
+  border: 5px solid rgb(255, 255, 255);
+  margin: 20px auto;
   text-decoration: none;
 }
