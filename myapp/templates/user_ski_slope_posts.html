@@ -6,6 +6,7 @@
                 <h1>Welcome to reviews written by {{user.username}}</h1>
             </div>
         </div>
+    <div class="userposts">
     {% for post in ski_slope_posts.items %}
     <div class="createdpost">
     <h2>
@@ -19,9 +20,9 @@
     <br>
     <p>{{post.text}}</p>
     <br>
+    </div>
     {% endfor %}
     </div>
-
     <nav aria-label="Page Navigation example">
         <ul class="pagination justify-content-center">
 

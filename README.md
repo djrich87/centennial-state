@@ -15,12 +15,19 @@ The Centennial State is the official nickname of Colorado. Colorado was nick nam
 ## Centennial State Instructions with Visuals
 
 
-### 1. Login Screen: Sign into the login page with the user's email and passowrd. If the user does not have a login then please signup to the website by filling out the Signup form.
-![Login Screen](/public/assets/login.png "Login into Great Lakes Games")
-![Signup Screen](/public/assets/signup.png "Signup for Great Lakes Games")
+### 1. The main page will show up when the site is deployed. It will be either empty or show review cards if users have left reviews.
+![Main Page](/myapp/static/images/main.jpg "Main Page")
+![Main Page with Reviews](/myapp/static/images/main-page-with-review.jpg "Main Page with Reviews")
 
-### 2. Game's List Page: After logging in the user will see a list of game cards with the game title and game image available.
-![Game List Page](/public/assets/game-list.png "Game List Screen")
+### 2. The navigation bar will allow the user to interact with the whole website. 
+![Nav Bar](/myapp/static/images/nav-bar.jpg "Nav Bar")
+
+### 3. A new user can register a new account.
+![Register Account](/myapp/static/images/register.jpg "Register Account")
+
+### 3. The user can register a new account or login with an already created account. Accounts that already exist can be updated.
+![Log In](/myapp/static/images/login.jpg "Login In")
+![Update Account](/myapp/static/images/update-account.jpg "Update Account")
 
 ### 3. The user will then click on a game of their choice. The Game Details page will open with a game title, game description, game image, release date, development team and platforms that the game operates on listed.
 ![Game Details Page](/public/assets/game-details-page.png "Game Details Page")
@@ -37,20 +44,8 @@ The Centennial State is the official nickname of Colorado. Colorado was nick nam
 ***
 ## Technologies Used
 
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)  ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)  ![Jinja]()  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)  ![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)  ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)  ![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
 
-
-***
-
-## Project Development Preparation
-
-#### Trello Planning, Wireframing & ERD:
-
-[Trello Planning](https://trello.com/b/QYNA3SmY/centennial-state-unit-4-project-planning)
-
-[Wireframing](https://whimsical.com/great-lake-gaming-wireframe-WkSLCdR2cWLcebdsFLe6X)
-
-![ERD!](/public/assets/erd-unit-three-project.png "ERD")
 
 ***
 
@@ -58,3 +53,4 @@ The Centennial State is the official nickname of Colorado. Colorado was nick nam
 
 #### 1. Add a ski slope difficulty rating (ex: green, blue, blue black, black, double black diamond)
 #### 2. Upload images of the reviewed slope
+#### 3. Add custom 404 error page

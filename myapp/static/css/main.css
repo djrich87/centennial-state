@@ -136,6 +136,7 @@ h3.registertext {
   border: 10px;
   border: 5px solid rgb(255, 255, 255);
   margin: auto;
+  padding: 25px;
 }
 
 h3.createreview {
@@ -148,8 +149,8 @@ input#title.form-control.form-control-lg {
 }
 
 textarea#text.form-control.form-control-lg {
-  height: 350px;
-  width: 550px;
+  height: 300px;
+  width: 500px;
 }
 
 .containeraccount {
@@ -199,7 +200,7 @@ a {
 
 a.page-link {
   padding: 3px;
-  font-size: x-large;
+  font-size: large;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: white;
@@ -250,4 +251,16 @@ ul.pagination.justify-content-center {
 div.createdpost {
   display: flex;
   margin: auto;
+}
+
+.userposts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+div.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
 }
