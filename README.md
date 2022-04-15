@@ -25,19 +25,21 @@ The Centennial State is the official nickname of Colorado. Colorado was nick nam
 ### 3. A new user can register a new account.
 ![Register Account](/myapp/static/images/register.jpg "Register Account")
 
-### 3. The user can register a new account or login with an already created account. Accounts that already exist can be updated.
+### 4. Registered users can login with their account.
 ![Log In](/myapp/static/images/login.jpg "Login In")
+
+### 5. Users can also update their account details.
 ![Update Account](/myapp/static/images/update-account.jpg "Update Account")
 
-### 3. The user will then click on a game of their choice. The Game Details page will open with a game title, game description, game image, release date, development team and platforms that the game operates on listed.
-![Game Details Page](/public/assets/game-details-page.png "Game Details Page")
+### 6. The user can click create a ski slope review to write down their ski experience on the slopes.
+![Create a Review](/myapp/static/images/create-review.jpg "Create a Review")
 
-### 4. The user can enter reviews about the game under the game details. This allows an interactive UI for the user to share what they thought about their gaming experience to other gamers. Users can also edit and delete their reviews. Only the user signed into the profile that creates the review can edit and delete the specific review.
-![Game Reviews Box](/public/assets/add-your-own-review.png "Game Reviews Box")
+### 7. After the review is created the user can access their user cards to read the review. Only the creator of the review can update and delete the review.
+![Review Card](/myapp/static/images/review-card.jpg "Review Card")
+![Update and Delete Review](/myapp/static/images/update-delete.jpg "Update and Delete")
 
-
-### 5. Other users can create comments on reviews created by the user. The user can also comment on other users as well. The user that creates the comment can edit and delete the specific comment that they created. This allows for a fully interactive UI experience for our gaming community!
-![Game Comments Dropdown](/public/assets/comment-dropdown.png "Game Comments Dropdown")
+### 8. Check out the About Us for a history lesson about the great state of Colorado!
+![About Us](/myapp/static/images/about-us.jpg "About Us")
 
 ###
 
@@ -54,3 +56,4 @@ The Centennial State is the official nickname of Colorado. Colorado was nick nam
 #### 1. Add a ski slope difficulty rating (ex: green, blue, blue black, black, double black diamond)
 #### 2. Upload images of the reviewed slope
 #### 3. Add custom 404 error page
+#### 4. Adjust Create a Review's CSS
